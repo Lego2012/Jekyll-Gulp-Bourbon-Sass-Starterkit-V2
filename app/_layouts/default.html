@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="wrapper">
+      <div class="image-container">
+        <img src="/assets/images/gulp.png">
+      </div>
+
+      {{ content }}
+
+
+    {% include footer.html %}
+
+  </div> <!-- container-leo -->
+
+  <script src="{{ '/assets/js/application.js' | prepend: site.baseurl }}"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,26 @@
+---
+layout: default
+title: Jekyll Gulp Starter Kit
+author: Werner Müller
+keywords: keyword1,keyword2,keyword3
+description: Diese Blogseite ist so wunderbar, es ist kaum auszuhalten!
+---
+
+<hr>
+<h1>Die Blog Seite</h1>
+
+<h1 class="page-heading">Beiträge</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{% include date.html %}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+  {% endfor %}
+</ul>
+
+<p class="rss-subscribe">Abonniere <a href="{{ "/feed.xml" | prepend: site.baseurl }}">mit RSS</a></p>

@@ -1,0 +1,21 @@
+# http://blog.jordanthornquest.com/post/119506660470/building-dynamic-navbars-in-jekyll
+# Belongs in this project to "_src/_includes/header-muster.html"
+
+- name: Startseite
+  url: /index.html
+- name: Blog
+  url: /neues.html
+- name: Über uns
+  url: /ueber-uns.html
+
+- name: Beiträge
+  child_links:
+    - name: Artikel
+      url: /artikel.html
+      divider: true
+    - name: Kunst
+      url: /kunst.html
+    - name: Musik
+      url: /musik.html
+    - name: Schreiben
+      url: /schreiben.html

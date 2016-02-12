@@ -1,0 +1,41 @@
+.site-footer
+  border-top: 1px solid $grey-color-light
+  padding: $spacing-unit 0
+
+.footer-heading
+  font-size: rem(18)
+  margin-bottom: $spacing-unit / 2
+
+.contact-list,
+.social-media-list
+  list-style: none
+  margin-left: 0
+
+.footer-col-wrapper
+  font-size: rem(15)
+  color: $grey-color
+  margin-left: -$spacing-unit / 2
+  +clearfix
+
+.footer-col
+  float: left
+  margin-bottom: $spacing-unit / 2
+  padding-left: $spacing-unit / 2
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3
+  +span-columns(4)
+
+.footer-nav
+  +span-columns(6)
+
+.footer-link
+  color: $text-color
+  line-height: $base-line-height
+  display: inline-block
+  padding: rem(5)
+
+  // Gaps between nav items, but not on the first one
+  &:not(:first-child)
+    margin-left: rem(10)

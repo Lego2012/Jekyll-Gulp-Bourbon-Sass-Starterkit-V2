@@ -1,0 +1,13 @@
+{% include head.html %}
+<body>
+    <div class="site">
+        {% include header.html %}
+        <h3 class="article-title" itemprop="name">{{ page.title }}</h3>
+        {{ content }}
+        {% include footer.html %}
+    </div>
+    <script src="js/vendor.min.js"></script>
+    <!-- Custom minified JS -->
+    <script src="js/main.min.js"></script>
+</body>
+</html>
