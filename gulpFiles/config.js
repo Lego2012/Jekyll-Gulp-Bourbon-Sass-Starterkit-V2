@@ -13,6 +13,7 @@ module.exports = {
         baseDir: [development, build, src]
       },
       port: 9999,
+      notify: false,
       files: [
         developmentAssets + '/css/*.css',
         developmentAssets + '/js/*.js',

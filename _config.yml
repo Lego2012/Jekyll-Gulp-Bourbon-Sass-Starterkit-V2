@@ -1,5 +1,5 @@
 # Site settings
-title: Leos Jekyll-Webseite mit Gulp, Bourbon, Neat, Bitters und Sass
+title: Leos Jekyll-Webseite
 email: leo.merkel@confidea.de
 description: > # this means to ignore newlines until "baseurl:"
   Schreibe hier eine faszinierende Beschreibung Deiner Webseite. Du kannst diesen Text in der _config.yml editieren. Er erscheint in dem Document-Head Meta (für Google's Suchergebnisse) und in Deiner feed.xml Seitenbeschreibung.
