@@ -1,0 +1,124 @@
+//Basic styling
+body
+    @extend %pattern-light-grey
+    font-family: $base-font-family
+    font-size: $base-font-size
+    line-height: $base-line-height
+    font-weight: 300
+    color: $text-color
+
+
+//Set `margin-bottom` to maintain vertical rhythm
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm
+    margin-bottom: $spacing-unit / 2
+
+
+//Images
+img
+    max-width: 100%
+    vertical-align: middle
+    margin-bottom: 1.5em
+
+
+//Figures
+figure > img
+    display: block
+
+
+figcaption
+    font-size: $small-font-size
+
+
+//Lists
+ul, ol
+    margin-left: $spacing-unit
+
+
+li
+    > ul,
+    > ol
+        margin-bottom: 0
+
+
+
+//Headings
+h1, h2, h3, h4, h5, h6
+    font-weight: 300
+
+
+//Links
+a
+    color: $brand-color
+    text-decoration: none
+
+    &:visited
+        color: darken($brand-color, 15%)
+
+
+    &:hover
+        color: $text-color
+        text-decoration: underline
+
+
+
+//Blockquotes
+blockquote
+    color: $grey-color
+    border-left: 4px solid $grey-color-light
+    padding-left: $spacing-unit / 2
+    font-size: 18px
+    letter-spacing: -1px
+    font-style: italic
+
+    > :last-child
+        margin-bottom: 0
+
+
+
+//Code formatting
+pre,
+code
+    font-size: rem(15)
+    border: 1px solid $grey-color-light
+    border-radius: 3px
+    background-color: #eef
+
+
+code
+    padding: rem(1) rem(5)
+
+
+pre
+    padding: rem(8) rem(12)
+    overflow-x: scroll
+
+    > code
+        border: 0
+        padding-right: 0
+        padding-left: 0
+
+
+
+//Wrapper
+.wrapper
+    max-width: calc(rem(800) - (#{$spacing-unit * 2}))
+    margin-right: auto
+    margin-left: auto
+    padding-right: $spacing-unit
+    padding-left: $spacing-unit
+    +clearfix
+
+//Icons
+.icon
+
+    > svg
+        display: inline-block
+        width: rem(16)
+        height: rem(16)
+        vertical-align: middle
+
+        path
+            fill: $grey-color

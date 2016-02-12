@@ -1,0 +1,15 @@
+# Site settings
+title: Leos Jekyll-Webseite mit Gulp, Bourbon, Neat, Bitters und Sass
+email: leo.merkel@confidea.de
+description: > # this means to ignore newlines until "baseurl:"
+  Schreibe hier eine faszinierende Beschreibung Deiner Webseite. Du kannst diesen Text in der _config.yml editieren. Er erscheint in dem Document-Head Meta (für Google's Suchergebnisse) und in Deiner feed.xml Seitenbeschreibung.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:9999" # the base hostname & protocol for your site
+twitter_username: Lemgo2000
+github_username:  Lego2012
+
+# Build settings
+markdown: kramdown
+
+source: ./app
+destination: ./build

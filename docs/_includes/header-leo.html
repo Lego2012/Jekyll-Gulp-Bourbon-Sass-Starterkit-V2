@@ -1,0 +1,15 @@
+<header id="masthead">
+    <h1 class="title"><a href="{{ site.baseurl }}/" class="site-title">{{ site.sitename }}</a></h1>
+    <nav>
+      <ul id="menu">
+        {% for node in site.data.nav %}
+          {% if page.url == node.url %}
+            <li class="active"><a href="{{ node.url }}" class="active">{{ node.title }}</a></li>
+          {% else %}
+            <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+</header>
+
