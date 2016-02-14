@@ -1,4 +1,4 @@
-# Leo's Jekyll Template mit Bourbon, Neat, Bitters
+# Leo's Jekyll Template mit Bourbon, Neat, Bitters powered by Gulp und Sass
 #### Inspiriert von [stefanimhoff.de](http://stefanimhoff.de/)
 
 ## Aktuell ist der Branch `develop`!
@@ -21,9 +21,9 @@ $ brew install eot-utils
 
 ## Setup
 
-Öffne `gulp/config.js` und ändere die Einstellungen falls nötig. Nur die `rsync` Einstellungen müssen tatsächlich angepasst werden. Ändere `destination` zum Pfad Deines Webservers und ändere `hostname` und `username`.
+Öffne `gulpFiles/config.js` und ändere die Einstellungen falls nötig. Nur die `rsync` Einstellungen müssen tatsächlich angepasst werden. Ändere `destination` zum Pfad Deines Webservers und ändere `hostname` und `username`.
 
-## Running Gulp.js
+## Gulp.js starten
 
 Drei Tasks sind verfügbar:
 
