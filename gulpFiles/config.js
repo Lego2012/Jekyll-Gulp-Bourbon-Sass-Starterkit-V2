@@ -53,6 +53,10 @@ module.exports = {
       sourcemap: true,
     }
   },
+  bitters: {
+    src: 'docs/bitters-adjusted/*.{sass,scss}',
+    dest: srcAssets + '/scss/0-plugins/base'
+  },
   autoprefixer: {
     browsers: [
       'last 2 versions',
