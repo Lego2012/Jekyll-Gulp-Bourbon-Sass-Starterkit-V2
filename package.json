@@ -30,6 +30,7 @@
     "gulp-gzip": "^1.2.0",
     "gulp-htmlmin": "^1.2.0",
     "gulp-imagemin": "^2.3.0",
+    "gulp-install": "^0.6.0",
     "gulp-jshint": "^1.8.5",
     "gulp-notify": "^2.0.0",
     "gulp-plumber": "^1.0.1",
