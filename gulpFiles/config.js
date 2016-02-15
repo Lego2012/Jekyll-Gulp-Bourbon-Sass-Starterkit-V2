@@ -57,6 +57,10 @@ module.exports = {
     src: 'docs/bitters-adjusted/*.{sass,scss}',
     dest: srcAssets + '/scss/0-plugins/base'
   },
+  normalize: {
+    src: 'app/_bower_components/normalize-css/normalize.css',
+    dest: srcAssets + '/scss'
+  },
   autoprefixer: {
     browsers: [
       'last 2 versions',

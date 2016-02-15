@@ -33,6 +33,7 @@
     "gulp-jshint": "^1.8.5",
     "gulp-notify": "^2.0.0",
     "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
     "gulp-rev": "^2.0.1",
     "gulp-rev-collector": "^0.1.1",
     "gulp-rsync": "0.0.5",
