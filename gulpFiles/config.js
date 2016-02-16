@@ -17,8 +17,7 @@ module.exports = {
       files: [
         developmentAssets + '/css/*.css',
         developmentAssets + '/js/*.js',
-        developmentAssets + '/images/**',
-        developmentAssets + '/fonts/*'
+        developmentAssets + '/images/**'
       ]
     },
     production: {
@@ -104,16 +103,6 @@ module.exports = {
     src: production + '/**/*.{html,xml,json,css,js}',
     dest: production,
     options: {}
-  },
-  copyfonts: {
-    development: {
-      src:  srcAssets + '/fonts/*',
-      dest: developmentAssets + '/fonts'
-    },
-    production: {
-      src:  developmentAssets + '/fonts/*',
-      dest: productionAssets + '/fonts'
-    }
   },
   base64: {
     src: developmentAssets + '/css/*.css',

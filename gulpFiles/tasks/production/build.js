@@ -10,7 +10,6 @@ gulp.task('build:production', function(callback) {
     'sass',
     'scripts',
     'images',
-    'copy:fonts'
   ],
   'base64',
   [
@@ -18,7 +17,6 @@ gulp.task('build:production', function(callback) {
     'optimize:js',
     'optimize:images',
     'optimize:html',
-    'copy:fonts:production'
   ],
   'revision',
   'rev:collect',
