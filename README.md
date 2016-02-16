@@ -12,13 +12,6 @@ $ ./install-dev.sh
 
 Damit werden automatisch `bundle`, `bower install` und `npm install` gestartet.
 
-Um [Fontcustom](http://fontcustom.com/) zu installieren, solltest Du [Homebrew](http://brew.sh/) installiert haben oder ein anderes Paketmanagementwerkzeug nutzen um die Abhängigkeiten zu installieren:
-
-```sh
-$ brew install fontforge --with-python
-$ brew install eot-utils
-```
-
 ## Einstellungen
 
 Öffne `gulpFiles/config.js` und ändere die Einstellungen falls nötig. Allerdings müssen eigentlich nur die `rsync` Einstellungen tatsächlich angepasst werden. Ändere `destination` zum Pfad Deines Webservers und ändere `hostname` und `username`.
