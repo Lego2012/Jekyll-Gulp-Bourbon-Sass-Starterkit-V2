@@ -25,7 +25,8 @@ module.exports = {
       server: {
         baseDir: [production]
       },
-      port: 9998
+      port: 9998,
+      notify: false
     }
   },
   delete: {
