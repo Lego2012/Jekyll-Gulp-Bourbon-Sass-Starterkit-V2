@@ -26,6 +26,6 @@ $ gulp publish
 $ gulp deploy
 ```
 
-- `gulp` baut die Assets zusammen, erstellt die Jekyll Site, kopiert die Bitters-Gridsettings aus dem `bitters-adjusted` Ordner in `app/_assets/scss/0-plugins/base`, kopiert die `bower-components/normalize-css/normalize.css` in `app/_assets/scss` und benennt sie in `_normalize.scss` um, damit sie von der `main.sass` korrekt importiert werden kann und startet den Entwicklungsserver. Abschließend wird der `watch` Task gestartet.
+- `gulp` baut die Assets zusammen, erstellt die Jekyll Site, kopiert die Bitters-Gridsettings aus dem `bitters-adjusted` Ordner in `app/_assets/scss/0-plugins/base`, kopiert die `bower-components/normalize-css/normalize.css` in `app/_assets/scss` und benennt sie in `_normalize.scss` um, damit sie von der `main.scss` korrekt importiert werden kann und startet den Entwicklungsserver. Abschließend wird der `watch` Task gestartet.
 - `gulp publish` kopiert und optimiert die Assets und startet ein Production-Build von Jekyll.
 - `gulp deploy` transferiert die generierten Dateien mit Rsync auf den Server.
