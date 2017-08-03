@@ -1,3 +1,5 @@
+# Dieses Respository wird nicht weiter gepflegt, kann aber natürlich weiter genutzt werden
+
 # Leo's Jekyll Template mit Bourbon, Neat, Bitters powered by Gulp und Sass
 ##### Inspiriert von [stefanimhoff.de](http://stefanimhoff.de/)
 
